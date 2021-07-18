@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Will | Landing Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./skin/css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="./skin/css/style.css">
+    <script src="./scripts/script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h2 class="title">Will <span class="title2">Delay</span></h2>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-6 contents">
+                <h3 class="title">
+                    Newsletter
+                </h3>
+                <span class="text">
+                    Cadastre-se ao lado para ficar por dentro das nossas novidades.
+                </span>
+                <div class="image">
+                    <img class="img-responsive" src="./skin/images/newsletter.jpg" alt="Fique por dentro das Novidades">
+                </div>
+            </div>
+            <div class="col-md-6 forms">
+                <div class="box">
+                    <div class="title">
+                        <h3 class="title">Preencha os campos abaixo para receber nossas ofertas:</h3>
+                    </div>
+                    <div class="formulario">
+                        <form>
+                            <div class="userName">
+                                <label for="name">Nome<span class="required">*</span>:</label>
+                                <input type="text" name="name" id="name" size="50px" required/>
+                            </div>
+                            <div class="userEmail">
+                                <label for="email">Email<span class="required">*</span>:</label>
+                                <input type="text" name="email" id="email" size="50px" required/>
+                            </div>
+                            <div class="button">
+                                <button type="submit" id="btnEnviar">Avise-me</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container black-friday">
+        <div class="block-black-friday">
+            <h3 class="title-black">FALTAM</h3>
+        </div>
+        <div class="block-cont-temp col-md-12">
+            <div class="time day col-md-2">
+                <span class="time day" id="day"></span>
+            </div>
+            <div class="pontuacao col-md-1">
+                <span class="pontuacao">:</span>
+            </div>
+            <div class="time hour col-md-2">
+                <span class="time hour" id="hour"></span>
+            </div>
+            <div class="pontuacao col-md-1">
+                <span class="pontuacao">:</span>
+            </div>
+            <div class="time min col-md-2">
+                <span class="time min" id="min"></span>
+            </div>
+            <div class="pontuacao col-md-1">
+                <span class="pontuacao">:</span>
+            </div>
+            <div class="time sec col-md-2">
+                <span class="time sec" id="sec"></span>
+            </div>
+        </div>
+        <div class="block-black-friday">
+            <h3 class="text-black">PARA A BLACK FRIDAY</h3>
+        </div>
+        <script>countdown();</script>
+    </div>
+    <div class="footer">
+        <div class="container footer-social">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="social-title">Siga o Willian nas Redes Sociais</span>
+                </div>
+                <div class="col-md-2 col-md-offset-4 social-linkedin">
+                    <a href="https://www.linkedin.com/in/willian-leonardo-arcenio-4a1521189/" title="Me siga no Linkedin"><i class="icon-linkedin"></i></a>
+                </div>
+                <div class="col-md-2 social-insta">
+                    <a href="https://www.instagram.com/will_arcenio/" title="Me siga no Instagram"><i class="icon-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <span class="copyrights">
+                © 2021 Willian Arcênio. Todos os Direitos Reservados.
+            </span>
+        </div>
+    </div>
+</body>
+</html>
