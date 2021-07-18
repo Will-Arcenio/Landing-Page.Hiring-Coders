@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./skin/css/estilo.css"/>
     <link rel="stylesheet" type="text/css" href="./skin/css/style.css">
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/validaForm.js"></script>
 </head>
 <body>
     <div class="header">
@@ -45,8 +46,11 @@
                                 <label for="email">Email<span class="required">*</span>:</label>
                                 <input type="text" name="email" id="email" size="50px" required/>
                             </div>
+                            <div class="msg">
+                                <span id="msg"></span>
+                            </div>
                             <div class="button">
-                                <button type="submit" id="btnEnviar">Avise-me</button>
+                                <button type="button" id="btnEnviar" onclick="validaForm()">Avise-me</button>
                             </div>
                         </form>
                     </div>
