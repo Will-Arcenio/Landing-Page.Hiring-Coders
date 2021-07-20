@@ -1,5 +1,5 @@
 // Data de termino
-var futureDate = "2021/07/18 23:59:59";
+var futureDate = "2021/11/26 23:59:59";
 
 var futureDate = new Date(futureDate).getTime();
 
